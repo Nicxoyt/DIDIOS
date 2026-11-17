@@ -27,41 +27,23 @@
 
         /* CONTENEDOR DEL JUEGO */
 
-        #gm4html5_div_id {
-            position: absolute !important;
 
-            left: 50% !important;
-            top: 50% !important;
+#gm4html5_div_id {
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+    position: static;
+    transform: none;
+}
 
-            width: 1366px !important;
-            height: 768px !important;
+#canvas {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
 
-            margin: 0 !important;
-            padding: 0 !important;
-
-            transform-origin: center center !important;
-
-            transform:
-                translate(-50%, -50%)
-                scale(var(--escala, 1))
-                !important;
-        }
-
-        /* CANVAS ORIGINAL DE GAMEMAKER */
-
-        #canvas {
-            display: block !important;
-            position: relative !important;
-
-            left: 0 !important;
-            top: 0 !important;
-
-            width: 1366px !important;
-            height: 768px !important;
-
-            margin: 0 !important;
-            padding: 0 !important;
-        }
     </style>
 
     <script>
